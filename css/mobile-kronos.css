@@ -1,0 +1,253 @@
+body {
+  font-family: 'Open Sans',sans-serif;
+  background: #000;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.main-header {
+  background: #292826;
+}
+.main-header .logo {
+  width: 250px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  display: block;
+}
+.main-header .toggle-nav {
+  position: relative;
+  background: black;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0px auto;
+}
+.main-nav {
+  background: #757575;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px 0;
+}
+.main-header .main-nav ul {
+}
+.main-header .main-nav ul li {
+float: left;
+margin: 0 10px;
+}
+.main-header .main-nav ul li a {
+  font-family: Oswald, 'Open Sans';
+  width: 70px;
+  background: #757575;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  padding: 10px 0;
+  margin-bottom: 1px;
+  font-size: 15px;
+}
+.main-header .main-nav ul li a:hover {
+
+}
+
+.register {
+  display: none;
+  position: absolute;
+  width: 32px;
+  right: 15px;
+  top:35px;
+  z-index: 50;
+}
+
+.banner {
+  display: none;
+}
+.banner img {
+
+}
+
+.productos {
+clear: both;
+width: 98%;
+overflow: hidden;
+background: black;
+padding: 10px 5px 10px 5px;
+z-index: 10;
+}
+
+.productos .producto {
+  width: 49%;
+  max-width: 280px;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  overflow: hidden;
+  background: #ccc;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+  height: 200px;
+}
+
+.productos .producto:nth-child(even){
+  margin-right: 0;
+}
+
+.productoitem {
+  width: 300px;
+  height: 300px;
+}
+
+.productos .producto img {
+  overflow: hidden;
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 10;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.productos .producto h2 {
+  font-family: Oswald, 'Open Sans';
+  color: white;
+  background: rgba(0,0,0,0.5);
+  font-size: 13px;
+  padding: 6px 4px;
+  position: absolute;
+  width: 100%;
+  bottom: 24px;
+  z-index: 21;
+}
+.productos .producto p {
+
+}
+.productos .producto .precio-pdto {
+  font-family: Oswald, 'Open Sans';
+  color: yellow;
+  background: rgba(0,0,0,0.5);
+  padding: 6px 4px;
+  font-size: 13px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 20;
+}
+
+.main-footer {
+  clear: both;
+}
+
+.footer-msj {
+  font-family: Oswald, 'Open Sans';
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+.footer-msj p {
+  display: block;
+  padding: 14px 8px;\
+}
+
+.links-footer {
+  background: #757575;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.main-footer ul {
+
+}
+.main-footer ul li {
+
+}
+
+.main-footer ul li a {
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  display: block;
+  padding: 10px 0;
+  margin-bottom: 1px;
+  font-size: 13px;
+  border-bottom: 1px solid white;
+}
+.main-footer ul li:first-child a {
+  border-top: 1px solid white;
+}
+
+
+
+  .formulario {
+      margin-top: 40px;
+      clear: both;
+      overflow: hidden;
+      background: #ebeae5;
+      padding: 15px;
+      z-index: 10;
+      line-height: 15px;
+      text-align: center;
+  }
+
+  .fondo {
+
+     margin-top: 40px;
+      clear: both;
+      overflow: hidden;
+      background: #ebeae5;
+      padding: 15px;
+      z-index: 10;
+      line-height: 15px;
+      text-align: center;
+  }
+
+  .titulo {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+.titulos {
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+
+}
+.botones {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.botones:focus {
+    border-color:#333;
+}
+
+.botones:hover {
+    padding:5px; 
+    background:#ccc;
+    border:2px solid #ccc;  
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input [type=radio], a:hover {
+ text-decoration: underline;
+
+}
+
